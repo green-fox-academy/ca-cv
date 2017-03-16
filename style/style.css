@@ -1,3 +1,45 @@
 body {
-  background: red;
+  background: #ddd;
+  font-family: Lato, sans-serif;
+}
+
+h2, h3 {
+  text-transform: uppercase;
+}
+
+h4 {
+  margin: 0;
+}
+
+h2 span, h3 span {
+  background: #20d1ac;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  margin-top: 0;
+}
+
+main {
+  max-width: 400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.profilepic {
+  position: absolute;
+  left: -100px;
+  top: 40px;
+}
+
+ul {
+  background: rgba(255,255,255, .8);
+  padding: 20px 20px 5px;
+}
+
+.work {
+  text-align: right;
 }
